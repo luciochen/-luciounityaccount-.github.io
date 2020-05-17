@@ -4,17 +4,23 @@
 }
 
 #intro{
-    margin-bottom: 100px;
-    width: 70%;
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+@media (max-width: 1000px){
+    #intro{
+        width: 90%;
+    }
+}
+
+#intro h2{
+    margin-top: 120px;
 }
 
 #email-link{
     font-size: 36px;
     font-weight: bold;
-    color: #0EAD8E;
-}
-
-#color-text{
     color: #0EAD8E;
 }
 
